@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="TrainingScheduler.fs" />
+    <Compile Include="Models.fs" />
+    <Compile Include="TrainingDetail.fs" />
+    <Compile Include="TrainingMaster.fs" />
   </ItemGroup>
   
   <ItemGroup>
