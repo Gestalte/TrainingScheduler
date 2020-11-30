@@ -72,5 +72,5 @@ type App () as app =
     inherit Application ()
 
     let runner = 
-        TrainingMaster.program
+        TrainingDetail.program
         |> XamarinFormsProgram.run app
